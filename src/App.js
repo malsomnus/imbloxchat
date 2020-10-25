@@ -23,7 +23,7 @@ const App = () => {
     const onEnterRoom = id => {
         RequestManager.joinChatroom(
             {userId: currentUser.id, chatroomId: id},
-            data => history.push(`/chatroom/${id}`)
+            () => history.push(`/chatroom/${id}`)
         );
     }
 
@@ -38,7 +38,7 @@ const App = () => {
     const onLeaveRoom = id => {
         RequestManager.leaveChatroom(
             {userId: currentUser.id, chatroomId: id},
-            data => history.push('/chatroomslist')
+            () => history.push('/chatroomslist')
         );
     }
 

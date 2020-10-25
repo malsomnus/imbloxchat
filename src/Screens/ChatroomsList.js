@@ -9,7 +9,7 @@ const ChatroomsList = props => {
     
     useEffect(() => {
         requestManager.getChatrooms(setChatrooms);
-    }, [requestManager]);
+    }, []);
 
     //
 

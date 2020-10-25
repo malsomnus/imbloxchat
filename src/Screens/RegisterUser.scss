@@ -1,0 +1,17 @@
+.register-user {
+    color: #ffff00;
+    border: 1px solid #ffff00;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+
+    >form {
+        >input {
+            margin: 0px 15px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.awesome-input {
+    height: 38px;
+    background: #000000;
+    color: #ffff00;
+    border: 1px solid #ffff00;
+    border-radius: 10px;
+    padding: 0px 15px;
+    font-size: 16px;
+    caret-color: #ffff00;
+
+    &:focus {
+        outline: 0;
+    }
+
+    &::selection {
+        background: #ffff00;
+        color: #000000;
+    }
+}

@@ -1,0 +1,19 @@
+.chatrooms-list {
+
+    >.title {
+        padding: 15px 15px;
+        font-size: 16px;
+        color: #ffff00;
+    }
+
+    >.chatrooms {
+        list-style-type: none;
+        padding: 0px 15px;
+        margin: 0;
+
+        >.chatroom {
+            width: 200px;
+            margin-bottom: 15px;
+        }
+    }
+}
